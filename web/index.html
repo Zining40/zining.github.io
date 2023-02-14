@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="
+	width=device-width,
+	initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Telex">
+	<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@700&display=swap" rel="stylesheet">
+	<title>Personal Website</title>	
+</head>
+<body>
+	<div class="header">
+		<a href="mailto:09170233@gm.scu.tw.com"><mark>get in touch</mark></a>
+		<a href=""><mark>github</mark></a>
+	</div>
+	<div class="content intro">
+		<div class="project_left">
+			<div>
+				<h1>Hi, <mark>I'm Leah</mark>, <br>
+					Major in <br><mark>Data Science</mark>
+				</h1>
+			</div>
+			<div>	
+				<p>
+					I build websites and machine learning model. 
+					If you have some projects, send me an email! If we are a good fit,
+					I will give you a time and cost estimate.
+				</p>
+			</div>
+			<div>	
+				<button onclick='location.href="#project1"'><span>see my work</span></button>
+			</div>
+		</div>
+		<div class="scroll"><p>SCROLL</p></div>
+	</div>
+	<div class="content project1" id="project1">
+		<div class="project_left">
+			<div class="latest_work"><p>LATEST WORK</p></div>
+			<div>
+				<h1>
+					<mark>Greeks:</mark><br>
+					Option Sensitivities
+				</h1>
+			</div>
+			<div class="keyword">	
+				<div><p>Option</p></div>
+				<!-- <div><p>Greeks</p></div> -->
+				<div><p>Python</p></div>
+				<div><p>Plotly</p></div>
+				<div><p>Black-Scholes</p></div>
+			</div>
+			<div>	
+				<p>
+					Use the Plotly package to plot the surface 
+					of the relationship between the European option theoretical price 
+					and the parameter based on Black-Scholes formula.
+				</p>
+			</div>
+			<div>	
+				<button onclick='location.href="images/BS_plotly.html"'><span>see this project</span></button>
+			</div>
+		</div>
+		<div class="project_right">
+			<center><iframe src="images/BS_plotly.html" frameborder="0" width="200%" height="620px"></iframe></center>
+		</div>
+	</div>
+	<div class="content project2">
+		<div class="project_left">
+			<div class="latest_work"><p>LATEST WORK</p></div>
+			<div>
+				<h1>
+					Brainwave Prediction and Evaluation
+				</h1>
+			</div>
+			<div class="keyword">	
+				<div><p>ML</p></div>
+				<div><p>SARIMA</p></div>
+				<div><p>DNN</p></div>
+				<div><p>LSTM</p></div>
+			</div>
+			<div>	
+				<p>
+					Detect our brainwaves by wearing an electroencephalogram device. 
+					The work I do: Data-resampling, 
+					training model (SARIMA, DNN, LSTM, etc.), 
+					and finally evaluated with MAE
+				</p>
+			</div>
+			<div>	
+				<button onclick='location.href="images/BrainWave.html"'><span>see this project</span></button>
+			</div>
+		</div>
+		<div class="project_right">
+			<center><iframe src="images/BrainWaveDemo.html" frameborder="0" width="200%" height="600px"></iframe></center>
+		</div>
+	</div>
+</body>
+</html>

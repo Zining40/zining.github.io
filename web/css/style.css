@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.header {
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    /* text-align: right;
+    overflow: hidden; */
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:900;
+}
+
+.header a {
+    /* font-family: "Telex"; */
+    font-weight: bold;
+    /* background-color: rgba(255, 255, 255, 0.686); */
+    backdrop-filter: blur(5px);
+    letter-spacing: 1.1px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    /* padding: 0px 10px;
+    margin-right: 50px;
+    margin-top: 15px; */
+    text-decoration: none;
+    /* border-radius: 10%; */
+    font-size: 17px;
+    text-shadow: 2px 2px rgba(71, 71, 71, 0.1);
+}
+
+  .header a:hover {
+    opacity: 2;
+    transform: scale(1.05);
+  }
+
+h1 {
+    font-family: "Georgia";
+    font-size: 50px;
+}
+
+mark {
+    display: inline-block; 
+    height: 0.5em;
+    line-height: 0;
+    background-color: #A9B5F9;
+}
+
+p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.content {
+    height: 685px;
+    margin: 15px;
+    position:relative;
+}
+
+.intro {
+    background-color: #EAECF8;
+}
+
+.project_left {
+    width: 50%;
+    padding: 10%;
+}
+
+.project_right {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+button {
+    width: 230px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    box-shadow: 12px 9px #EAECF8,
+     12px 9px 0px 3px black; 
+    margin-top: 15px;
+  }
+  
+  button:hover {opacity: 0.8;}
+
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+  button:active {
+    box-shadow: 5px 5px #EAECF8,
+    9px 9px 0px 3px black;
+    transform: translateY(4px) translateX(2px);
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.2s;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.scroll {
+    writing-mode: vertical-lr;
+    position: absolute;
+    bottom: -40px;
+    right: 150px;
+    padding: 0px 0px 100px 5px;
+    border-left: 2px solid black;
+}
+
+.scroll p {
+    text-orientation: mixed;
+    letter-spacing: -0.2px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.project1, .project2 {
+    display: flex;
+	flex-direction: row;
+}
+
+.latest_work {
+    margin-bottom: -20px;
+}
+
+.latest_work p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: #B6B4B9;
+
+}
+
+.keyword {
+    display: flex;
+	flex-direction: row;
+}
+
+.keyword div {
+    margin-right: 8px;
+    margin-top: -25px;
+    margin-bottom: -15px ;
+}
+
+.keyword p {
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #A9B5F9;
+    padding: 3px 12px;
+}
+
+/* .project_right {
+    border:2px solid rgba(71, 71, 71, 0.1);
+} */
+
