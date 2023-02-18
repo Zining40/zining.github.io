@@ -205,8 +205,17 @@ button {
     }
   }
 
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 40px;
-  }
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+    .project1, .project2 {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .project_right {
+        margin-top: 0%;
+        display: none;
+    }
 }
