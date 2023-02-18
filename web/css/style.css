@@ -187,3 +187,20 @@ button {
     border:2px solid rgba(71, 71, 71, 0.1);
 } */
 
+@media only screen and (max-width: 940px) {
+    /* For mobile phones: */
+    .project1, .project2 {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .project_left, .project_right {
+        width: 100%;
+    }
+    .project_left {    
+        padding: 10% 10% 10% 10%;
+    }
+    .project_right {
+        margin-top: -10%;
+    }
+  }
